@@ -1,0 +1,109 @@
+##### song format #####
+##
+## For a song format you can use:
+##
+## %l - length
+## %f - filename
+## %D - directory
+## %a - artist
+## %A - album artist
+## %t - title
+## %b - album
+## %y - date
+## %n - track number (01/12 -> 01)
+## %N - full track info (01/12 -> 01/12)
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## %P - priority
+## $R - begin right alignment
+##
+## If you want to make sure that a part of the format is displayed only when
+## certain tags are present, you can archieve it by grouping them with brackets,
+## e.g. '{%a - %t}' will be evaluated to 'ARTIST - TITLE' if both tags are
+## present or '' otherwise.  It is also possible to define a list of
+## alternatives by providing several groups and separating them with '|',
+## e.g. '{%t}|{%f}' will be evaluated to 'TITLE' or 'FILENAME' if the former is
+## not present.
+##
+## Note: If you want to set limit on maximal length of a tag, just put the
+## appropriate number between % and character that defines tag type, e.g. to
+## make album take max. 20 terminal cells, use '%20b'.
+##
+## In addition, formats support markers used for text attributes.  They are
+## followed by character '$'. After that you can put:
+##
+## - 0 - default window color (discards all other colors)
+## - 1 - black
+## - 2 - red
+## - 3 - green
+## - 4 - yellow
+## - 5 - blue
+## - 6 - magenta
+## - 7 - cyan
+## - 8 - white
+## - 9 - end of current color
+## - b - bold text
+## - u - underline text
+## - r - reverse colors
+## - a - use alternative character set
+##
+## If you don't want to use a non-color attribute anymore, just put it again,
+## but this time insert character '/' between '$' and attribute character,
+## e.g. {$b%t$/b}|{$r%f$/r} will display bolded title tag or filename with
+## reversed colors.
+
+audio_output {
+        type            "fifo"
+        name            "Visualizer feed"
+        path            "/tmp/mpd.fifo"
+       format          "44100:16:2"
+}
+
+
+visualizer_fifo_path = /tmp/mpd.fifo
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_connection_timeout = "5"
+mpd_crossfade_time = "5"
+
+user_interface = alternative
+song_columns_list_format = "(5)[blue]{l} (30)[blue]{t|f} (40)[yellow]{a} (30)[red]{b}"
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
+playlist_display_mode = "columns" (classic/columns)
+autocenter_mode = "yes"
+centered_cursor = "no"
+ignore_leading_the = "yes"
+
+active_column_color = "1_5"
+
+song_status_format = "{$2%a$b} $7- $3%t$b $7- $3%b {(Disc %d) }$7($5%y$7)"
+progressbar_look = "─╼─"
+
+titles_visibility = "no"
+
+browser_playlist_prefix = "$2plist »$9 "
+browser_display_mode = "columns" (classic/columns)
+
+song_window_title_format = "MPD: {%a > }{%t}{ [%b{ Disc %d}]}|{%f}"
+search_engine_display_mode = "columns" (classic/columns)
+follow_now_playing_lyrics = "yes"
+
+
+colors_enabled = "yes"
+
+discard_colors_if_item_is_selected = yes
+header_window_color = "yellow"
+volume_color = "cyan"
+state_line_color = "white"
+state_flags_color = "yellow"
+main_window_color = "white"
+color1 = "default"
+color2 = "red"
+progressbar_elapsed_color = red
+progressbar_color = "blue"
+statusbar_color = "white"
+
