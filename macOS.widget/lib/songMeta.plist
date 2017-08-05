@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>albumName</key>
+	<string>Hiss Spun</string>
+	<key>artistName</key>
+	<string>Chelsea Wolfe</string>
+	<key>coverURL</key>
+	<string>/macOS.widget/lib/cover688.jpg</string>
+	<key>currentPosition</key>
+	<string>103</string>
+	<key>isLoved</key>
+	<string>false</string>
+	<key>oldFilename</key>
+	<string>/Users/adam/Library/Application Support/Übersicht/widgets/macOS.widget/lib/cover688.jpg</string>
+	<key>songChanged</key>
+	<string>false</string>
+	<key>songDuration</key>
+	<string>182</string>
+	<key>songName</key>
+	<string>Vex</string>
+</dict>
+</plist>
