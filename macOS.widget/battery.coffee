@@ -2,8 +2,16 @@ command: "pmset -g batt | egrep '([0-9]+\%).*' -o --colour=auto | cut -f1 -d';'"
 
 refreshFrequency: 150000 # ms
 
-render: (output) ->
-  "bat #{output}"
+render: () -> """
+	<div class="container">
+	  bat: <span class="value"></span>
+	</div>
+"""
+
+update: (output, domEl) ->
+
+	div = $(domEl)
+	div.find('.value').html(output)
 
 style: """
   -webkit-font-smoothing: antialiased
@@ -15,5 +23,5 @@ style: """
   background: #031b21
   padding-right: 7px
   span
-    color: #29beea
+    color: #7cbf9e
 """
