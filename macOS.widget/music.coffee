@@ -11,13 +11,18 @@ render: () -> """
 update: (output, domEl) ->
 
 	div = $(domEl)
-	values = output.slice(0,-1).split(" @ ")
-	div.find('.artist').html(values[0])
-	div.find('.song').html(values[1])
-	tDuration = values[3]
-	tPosition = values[4]
-	tCurrent = Math.round((tPosition / tDuration) * 100)
-	div.find('.progress').html(tCurrent + '%')
+
+	if output
+		div.show()
+		values = output.slice(0,-1).split(" @ ")
+		div.find('.artist').html(values[0])
+		div.find('.song').html(values[1])
+		tDuration = values[3]
+		tPosition = values[4]
+		tCurrent = Math.round((tPosition / tDuration) * 100)
+		div.find('.progress').html(tCurrent + '%')
+	else
+		div.hide()
 
 style: """
   -webkit-font-smoothing: antialiased
