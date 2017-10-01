@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>albumName</key>
-	<string>Corals</string>
+	<string></string>
 	<key>artistName</key>
-	<string>Fujitsu</string>
+	<string></string>
 	<key>coverURL</key>
-	<string>https://lastfm-img2.akamaized.net/i/u/300x300/edbc963a1f220b2b61cace976ced7b29.png</string>
+	<string></string>
 	<key>currentPosition</key>
-	<string>73</string>
+	<string></string>
 	<key>isLoved</key>
-	<string>false</string>
+	<string></string>
 	<key>oldFilename</key>
-	<string>/Users/adam/Library/Application Support/Übersicht/widgets/macOS.widget/lib/cover688.jpg</string>
+	<string></string>
 	<key>songChanged</key>
-	<string>false</string>
+	<string></string>
 	<key>songDuration</key>
-	<string>124</string>
+	<string></string>
 	<key>songName</key>
-	<string>Driftwood</string>
+	<string></string>
 </dict>
 </plist>
