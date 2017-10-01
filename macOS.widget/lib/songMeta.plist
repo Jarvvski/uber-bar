@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>albumName</key>
-	<string>Hiss Spun</string>
+	<string>Corals</string>
 	<key>artistName</key>
-	<string>Chelsea Wolfe</string>
+	<string>Fujitsu</string>
 	<key>coverURL</key>
-	<string>/macOS.widget/lib/cover688.jpg</string>
+	<string>https://lastfm-img2.akamaized.net/i/u/300x300/edbc963a1f220b2b61cace976ced7b29.png</string>
 	<key>currentPosition</key>
-	<string>103</string>
+	<string>73</string>
 	<key>isLoved</key>
 	<string>false</string>
 	<key>oldFilename</key>
@@ -17,8 +17,8 @@
 	<key>songChanged</key>
 	<string>false</string>
 	<key>songDuration</key>
-	<string>182</string>
+	<string>124</string>
 	<key>songName</key>
-	<string>Vex</string>
+	<string>Driftwood</string>
 </dict>
 </plist>

@@ -31,7 +31,7 @@ style: """
   right: 21.5%
   top: 20px
   padding: 7px
-  background: #031b21
+  background: #212121
   .details
-    color: #7cbf9e
+    color: #c28898
 """
