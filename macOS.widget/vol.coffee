@@ -22,5 +22,5 @@ style: """
   padding: 7px
   background: #212121
   span
-    color: #c28898
+    color:  #FCE78E
 """

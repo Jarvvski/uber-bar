@@ -33,5 +33,5 @@ style: """
   padding: 7px
   background: #212121
   .details
-    color: #c28898
+    color:  #FCE78E
 """

@@ -7,7 +7,7 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #c28898
+  color: #FCE78E
   font: 13px Inconsolata
   left: 90.5%
   margin-left: 0px
