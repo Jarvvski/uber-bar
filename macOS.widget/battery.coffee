@@ -20,8 +20,8 @@ style: """
   left: 85%
   color: #e8dfd6
   padding: 7px
-  background: #212121
+  background: #0F1419
   padding-right: 7px
   span
-    color:  #FCE78E
+    color:  #0ee162
 """

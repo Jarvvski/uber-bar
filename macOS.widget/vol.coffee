@@ -20,7 +20,7 @@ style: """
   left: 80%
   top: 20px
   padding: 7px
-  background: #212121
+  background: #0F1419
   span
-    color:  #FCE78E
+    color:  #0ee162
 """
