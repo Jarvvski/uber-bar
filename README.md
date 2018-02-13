@@ -1,4 +1,7 @@
 # uber-bar
+
+![Screenshot](https://raw.githubusercontent.com/jarvvski/uber-bar/image.png)
+
 Übersicht status bar for macOS
 
 Copy macos.widget directory via:
