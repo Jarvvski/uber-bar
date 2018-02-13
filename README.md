@@ -1,6 +1,6 @@
 # uber-bar
 
-![Screenshot](https://raw.githubusercontent.com/jarvvski/uber-bar/image.png)
+![Screenshot](https://raw.githubusercontent.com/Jarvvski/uber-bar/master/image.png)
 
 Übersicht status bar for macOS
 
