@@ -23,5 +23,5 @@ style: """
   background: #0F1419
   padding-right: 7px
   span
-    color:  #0ee162
+    color:  #77bfdc
 """

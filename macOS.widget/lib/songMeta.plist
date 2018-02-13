@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>albumName</key>
-	<string></string>
+	<string>Every Open Eye</string>
 	<key>artistName</key>
-	<string></string>
+	<string>CHVRCHES</string>
 	<key>coverURL</key>
-	<string></string>
+	<string>https://lastfm-img2.akamaized.net/i/u/300x300/2922d854b939c7ef8ae584552a3ff106.png</string>
 	<key>currentPosition</key>
-	<string></string>
+	<string>73</string>
 	<key>isLoved</key>
-	<string></string>
+	<string>false</string>
 	<key>oldFilename</key>
 	<string></string>
 	<key>songChanged</key>
-	<string></string>
+	<string>false</string>
 	<key>songDuration</key>
-	<string></string>
+	<string>244</string>
 	<key>songName</key>
-	<string></string>
+	<string>Empty Threat</string>
 </dict>
 </plist>
